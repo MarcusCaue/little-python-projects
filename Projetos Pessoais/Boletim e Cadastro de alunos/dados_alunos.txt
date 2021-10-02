@@ -1,0 +1,35 @@
+
+C�digo do Aluno: 0
+Nome do Aluno: Rafael Miranda
+Notas do Aluno: 9.8|7.8
+M�dia do Aluno: 8.8
+
+C�digo do Aluno: 1
+Nome do Aluno: Francisco Miranda
+Notas do Aluno: 9.8|7.8
+M�dia do Aluno: 8.8
+
+C�digo do Aluno: 2
+Nome do Aluno: Morgana Miranda
+Notas do Aluno: 9.8|7.8
+M�dia do Aluno: 8.8
+
+C�digo do Aluno: 3
+Nome do Aluno: Lysandra Miranda
+Notas do Aluno: 9.8|7.8
+M�dia do Aluno: 8.8
+
+Código do Aluno: Jonas
+Nome do Aluno: Jonas
+Notas do Aluno: 8.0|6.0
+Média do Aluno: 7.0
+
+Código do Aluno: 0
+Nome do Aluno: Evelyn
+Notas do Aluno: 10.0|10.0
+Média do Aluno: 10.0
+
+Código do Aluno: 999
+Nome do Aluno: Jonas
+Notas do Aluno: 3.0|4.0
+Média do Aluno: 3.5
