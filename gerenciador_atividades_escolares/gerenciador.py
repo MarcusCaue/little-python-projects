@@ -2,7 +2,7 @@ from datetime import datetime
 
 diaAtual = datetime.today().day
 
-with open("atividades.txt", "r") as arq:
+with open("mini_projetos/gerenciador_atividades_escolares/atividades.txt", "r") as arq:
     dados = arq.readlines()
 
     disciplinas = list()
@@ -16,6 +16,7 @@ print("=" * 50)
 print("PRAZO DE ENTREGA DAS ATIVIDADES".center(50))
 print("=" * 50)
 print(f"{'DISCIPLINA':<20}    DATA DE ENTREGA\n")
+
 for data in datas:
     diaDeEntrega = int(data[:2])
 

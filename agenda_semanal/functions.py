@@ -15,17 +15,19 @@ def verifica_opção(opções):
     return escolha
 
 def gerar_agenda():
-    return {'Segunda': {'Matemática': '7:00 - 08:40', 'Química': '08:40 - 10:40', 'Português': '10:40 - 12:20'},
-     
-    'Terça': {'Filosofia': '7:00 - 08:40', 'Fund INFO/Redes': '08:40 - 10:40', 'Matemática': '10:40 - 12:20',
-    'Geografia': '14:40 - 16:40'},
-     
-    'Quarta': {'Sociologia': '08:40 - 10:40', 'Física': '10:40 - 12:20', 'Ed. Física': '13:00 - 15:30',
-    'Sistemas Operacionais': '15:50 - 17:30'},
-     
-    'Quinta': {'Biologia': '7:00 - 08:40', 'Redes/SO': '08:40 - 10:40', 'Fund INFO/SO': '10:40 - 12:20'},
-     
-    'Sexta': {'Artes': '7:00 - 08:40', 'Algoritmos': '08:40 - 11:30', 'Português': '11:30 - 12:20'}}
+    horario_semanal = {
+        'Segunda': 
+            {'Matemática': '7:00 - 08:40', 'Química': '08:40 - 10:40', 'Português': '10:40 - 12:20'},
+        'Terça': 
+            {'Filosofia': '7:00 - 08:40', 'Fund INFO/Redes': '08:40 - 10:40', 'Matemática': '10:40 - 12:20', 'Geografia': '14:40 - 16:40'},
+        'Quarta': 
+            {'Sociologia': '08:40 - 10:40', 'Física': '10:40 - 12:20', 'Ed. Física': '13:00 - 15:30', 'Sistemas Operacionais': '15:50 - 17:30'},
+        'Quinta': 
+            {'Biologia': '7:00 - 08:40', 'Redes/SO': '08:40 - 10:40', 'Fund INFO/SO': '10:40 - 12:20'},
+        'Sexta': 
+            {'Artes': '7:00 - 08:40', 'Algoritmos': '08:40 - 11:30', 'Português': '11:30 - 12:20'}
+    }
+    return horario_semanal
 
 def consulta_horario(dia, agenda):
     dia = dia.strip().title()

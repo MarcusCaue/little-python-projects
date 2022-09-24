@@ -1,4 +1,4 @@
-import funcões_agenda as agenda
+import functions as agenda
 from time import sleep
 
 agenda_semanal = {}
